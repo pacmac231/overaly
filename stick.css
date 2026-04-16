@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
     width: 1900px;
     height: 360px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .custom .bumper.pressed:after, .custom .button.pressed:after{
@@ -57,7 +58,7 @@
 }
 
 .custom .sticks:before{
-    content: "";
+    content: "PITCH";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -68,7 +69,7 @@
 }
 
 .custom .sticks:after{
-    content: "";
+    content: "ROLL";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -112,12 +113,12 @@
 }
 /* FA Button when set to off */
 .custom .bumper.right.pressed:after{
-    content: "";
+    content: "FA OFF";
 }
 
 /*Chaff Button*/
 .custom .button.y:after{
-    content: "";
+    content: "CHAFF";
     right: 80px;
     top: 0px
 }

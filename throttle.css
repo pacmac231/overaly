@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
     width: 1900px;
     height: 360px;
-
+    font-family: 'Orbitron', sans-serif;
 }
 
 .custom .bumper.pressed:after, .custom .button.pressed:after{
@@ -84,7 +85,7 @@
 }
 
 .custom .sticks:before{
-    content: "";
+    content: "LATERAL";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -97,7 +98,7 @@
 
 
 .custom .sticks:after{
-    content: "";
+    content: "VERTICAL";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -131,24 +132,24 @@
 }
 
 .custom .bumper.left:after{
-    content: "";
+    content: "BOOST";
     left: 68px;
 }
 
 .custom .button.a:after{
-    content: "";
+    content: "ECM";
     right: 0;
     width: 51px;
 }
 
 .custom .button.b:after{
-    content: "";
+    content: "SHIELD";
     right: 0;
     top: 45px;
 }
 
 .custom .button.x:after{
-    content: "";
+    content: "HEAT";
     right: 80px;
     top: 45px;
     width: 47px
